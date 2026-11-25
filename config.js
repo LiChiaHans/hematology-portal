@@ -60,10 +60,10 @@ window.PORTAL_CONFIG = {
       {
         id: "aml",
         title: "急性骨髓性白血病 (AML)",
-        description: "ELN 風險分層、誘導與鞏固治療原則。",
-        url: "",
-        status: "coming-soon",
-        tags: ["AML", "白血病", "leukemia"]
+        description: "NCCN v5.2026 速查：ELN 2022 風險分層、高/低強度誘導與鞏固、Venetoclax、R/R 標靶、MRD、APL 與 BPDCN。",
+        url: "https://lichiahans.github.io/aml-nccn-guide/",
+        status: "active",
+        tags: ["AML", "APL", "BPDCN", "白血病", "leukemia", "ELN", "FLT3", "IDH", "NPM1", "Venetoclax", "MRD", "NCCN"]
       },
       {
         id: "bcell-lymphoma",
