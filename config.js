@@ -74,6 +74,14 @@ window.PORTAL_CONFIG = {
         tags: ["淋巴瘤", "B細胞淋巴瘤", "lymphoma", "DLBCL", "FL", "MZL", "MCL", "Burkitt", "NCCN"]
       },
       {
+        id: "tcell-lymphoma",
+        title: "T 細胞淋巴瘤 (T-Cell Lymphomas)",
+        description: "NCCN v1.2027 速查：PTCL、ALCL、BIA-ALCL、T-LGLL、T-PLL、ATLL、HSTCL、ENKL/ANKL、GI LPD 與次發性 HLH。",
+        url: "https://lichiahans.github.io/tcell-nccn-guide/",
+        status: "active",
+        tags: ["淋巴瘤", "T細胞淋巴瘤", "lymphoma", "PTCL", "ALCL", "AITL", "ATLL", "HSTCL", "ENKL", "T-LGLL", "T-PLL", "HLH", "NCCN"]
+      },
+      {
         id: "mm",
         title: "多發性骨髓瘤 (Multiple Myeloma)",
         description: "IMWG 診斷標準、R-ISS 分期與誘導治療組合。",
