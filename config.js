@@ -30,9 +30,9 @@ window.PORTAL_CONFIG = {
       title: "血液科照會罐頭",
       subtitle: "Hematology Consultation Templates",
       description: "常用血液科會診回覆模板、檢驗建議與標準化照會紀錄格式。",
-      url: "", // 填入網址後將 status 改為 "active"
-      status: "coming-soon",
-      badge: "待設定連結",
+      url: "https://lichiahans.github.io/hema-consult-helper/",
+      status: "active",
+      badge: "臨床工具",
       icon: "clipboard",
       tags: ["照會", "會診", "罐頭", "模板", "consult"]
     },
@@ -123,6 +123,30 @@ window.PORTAL_CONFIG = {
       status: "active",
       badge: "整合照護手冊",
       tags: ["臺大醫院", "NTUH", "照護手冊", "副作用", "營養", "衛教"]
+    }
+  ],
+
+  // 專科考試
+  boardExam: [
+    {
+      id: "hema-board-review",
+      title: "血專複習班",
+      subtitle: "Hematology Board Exam Review",
+      description: "血液病專科醫師考試重點整理、考題複習與準備資源。",
+      url: "https://hema-2026.hsiehting.com/",
+      status: "active",
+      badge: "血液專科",
+      tags: ["血專", "專科考試", "複習班", "血液專科", "exam", "board"]
+    },
+    {
+      id: "hsct-board-review",
+      title: "移植專複習班",
+      subtitle: "HSCT / BMT Board Exam Review",
+      description: "造血幹細胞移植專科考試重點回顧、臨床情境與考前複習。",
+      url: "https://hsct.hsiehting.com/",
+      status: "active",
+      badge: "移植專科",
+      tags: ["移植專", "HSCT", "BMT", "專科考試", "複習班", "exam", "board"]
     }
   ]
 };
