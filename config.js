@@ -147,6 +147,16 @@ window.PORTAL_CONFIG = {
       status: "active",
       badge: "移植專科",
       tags: ["移植專", "HSCT", "BMT", "專科考試", "複習班", "exam", "board"]
+    },
+    {
+      id: "ebmt-study-zh",
+      title: "EBMT book 翻譯與口試大補帖",
+      subtitle: "EBMT Handbook Study Guide (ZH)",
+      description: "EBMT 造血幹細胞移植手冊中文翻譯整理與專科口試核心考題精華。",
+      url: "https://lichiahans.github.io/ebmt-transplant-study-zh/",
+      status: "active",
+      badge: "口試與手冊",
+      tags: ["EBMT", "口試", "大補帖", "翻譯", "移植專", "HSCT", "BMT", "專科考試"]
     }
   ]
 };

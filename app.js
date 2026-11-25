@@ -157,7 +157,7 @@
         </div>
         <p class="card-desc">${escapeHtml(item.description)}</p>
         <div class="card-actions">
-          <a href="${escapeAttr(item.url)}" target="_blank" rel="noopener noreferrer" class="btn-primary">前往複習班 ${ICONS.external}</a>
+          <a href="${escapeAttr(item.url)}" target="_blank" rel="noopener noreferrer" class="btn-primary">開啟資源 ${ICONS.external}</a>
           <button type="button" class="btn-ghost copy-btn" data-url="${escapeAttr(item.url)}" title="複製連結">${ICONS.copy}</button>
         </div>
       </article>
