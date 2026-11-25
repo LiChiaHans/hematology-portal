@@ -100,10 +100,10 @@ window.PORTAL_CONFIG = {
       {
         id: "mm",
         title: "多發性骨髓瘤 (Multiple Myeloma)",
-        description: "IMWG 診斷標準、R-ISS 分期與誘導治療組合。",
-        url: "",
-        status: "coming-soon",
-        tags: ["MM", "多發性骨髓瘤", "myeloma"]
+        description: "NCCN v2.2027 速查：SLiM-CRAB、R2-ISS/IMS-IMWG 與 VTE 計算機、四藥一線、CAR-T/BsAb、BCMA 後處置、腎病變與 MGCS/POEMS。",
+        url: "https://lichiahans.github.io/mm-nccn-guide/",
+        status: "active",
+        tags: ["MM", "多發性骨髓瘤", "myeloma", "SLiM-CRAB", "R-ISS", "R2-ISS", "IMS-IMWG", "Dara-VRd", "Isa-VRd", "CAR-T", "BsAb", "BCMA", "MRD", "IMPEDE", "SAVED", "MGCS", "MGRS", "POEMS", "NCCN"]
       }
     ]
   },
