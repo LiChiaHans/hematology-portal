@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>血液科臨床資源入口網</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+          </svg>
+        </div>
+        <div>
+          <h1 id="site-title">血液科臨床資源入口網</h1>
+          <p id="site-subtitle" class="brand-subtitle">Hematology &amp; BMT Clinical Portal</p>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <div class="search-box">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input
+            type="search"
+            id="search-input"
+            placeholder="搜尋工具、疾病或衛教資源... ( / )"
+            aria-label="搜尋網站資源"
+          />
+        </div>
+        <button id="theme-toggle" class="icon-btn" type="button" title="切換深色／淺色模式" aria-label="切換深色／淺色模式">
+          <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <!-- 分類篩選列 -->
+    <nav class="filter-bar" aria-label="分類篩選">
+      <button class="filter-pill active" data-filter="all" type="button">全部資源</button>
+      <button class="filter-pill" data-filter="clinical" type="button">臨床工具與預約</button>
+      <button class="filter-pill" data-filter="disease" type="button">疾病個論網站</button>
+      <button class="filter-pill" data-filter="patient" type="button">病人衛教網站</button>
+    </nav>
+
+    <!-- 區塊 1：臨床工具與預約系統 -->
+    <section class="portal-section" data-category="clinical" id="section-clinical">
+      <div class="section-header">
+        <div>
+          <h2>臨床工具與預約系統</h2>
+          <p>日常會診、移植療程規劃與骨髓檢查排程</p>
+        </div>
+      </div>
+      <div class="card-grid cols-3" id="clinical-grid"></div>
+    </section>
+
+    <!-- 區塊 2：疾病個論網站 -->
+    <section class="portal-section" data-category="disease" id="section-disease">
+      <div class="section-header">
+        <div>
+          <div class="title-row">
+            <h2 id="disease-title">疾病個論網站</h2>
+            <span class="status-pill updating">持續更新中</span>
+          </div>
+          <p id="disease-desc">血液疾病診斷標準、風險分層與治療指引整理（後續會慢慢更新）</p>
+        </div>
+        <div id="disease-main-link-slot"></div>
+      </div>
+      <div class="card-grid cols-4" id="disease-grid"></div>
+    </section>
+
+    <!-- 區塊 3：病人衛教網站 -->
+    <section class="portal-section" data-category="patient" id="section-patient">
+      <div class="section-header">
+        <div>
+          <h2>病人衛教網站</h2>
+          <p>精選血癌、淋巴癌與癌症整合照護資源，可一鍵複製連結分享給病人與家屬</p>
+        </div>
+      </div>
+      <div class="card-grid cols-3" id="patient-grid"></div>
+    </section>
+
+    <!-- 無搜尋結果提示 -->
+    <div id="empty-state" class="empty-state hidden">
+      <p>找不到符合「<span id="empty-query"></span>」的資源。</p>
+      <button id="clear-search" class="btn-secondary" type="button">清除搜尋條件</button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>血液科臨床資源入口網 · 修改 <code>config.js</code> 即可新增或更新連結</p>
+      <p>最後更新：<span id="last-updated"></span></p>
+    </div>
+  </footer>
+
+  <!-- 待設定連結提示視窗 -->
+  <div id="info-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="modal-title">尚未設定連結</h3>
+        <button id="modal-close" class="icon-btn" type="button" aria-label="關閉">✕</button>
+      </div>
+      <div class="modal-body">
+        <p id="modal-message"></p>
+        <div class="code-hint">
+          請開啟專案中的 <code>config.js</code>，找到對應項目並填入 <code>url</code> 與將 <code>status</code> 設為 <code>"active"</code>。
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button id="modal-ok" class="btn-primary" type="button">了解</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast 通知 -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
