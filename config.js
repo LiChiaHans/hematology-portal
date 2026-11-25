@@ -90,20 +90,20 @@ window.PORTAL_CONFIG = {
         tags: ["MPN", "骨髓增生性腫瘤", "MF", "PV", "ET", "骨髓纖維化", "真性紅血球增多症", "原發性血小板增多症", "JAK2", "CALR", "MPL", "Rusfertide", "Ruxolitinib", "Momelotinib", "NCCN"]
       },
       {
+        id: "mds",
+        title: "骨髓增生異常症候群 (MDS)",
+        description: "NCCN v1.2027 速查：IPSS-R 計算機、IPSS-M、低/高風險治療、MDS-5q、SF3B1、VEXAS/UBA1、IWG 2023、基因與遺傳易感。",
+        url: "https://lichiahans.github.io/mds-nccn-guide/",
+        status: "active",
+        tags: ["MDS", "骨髓化生不良", "骨髓增生異常", "IPSS-R", "IPSS-M", "del(5q)", "SF3B1", "UBA1", "VEXAS", "Luspatercept", "Imetelstat", "HMA", "CMML", "NCCN"]
+      },
+      {
         id: "mm",
         title: "多發性骨髓瘤 (Multiple Myeloma)",
         description: "IMWG 診斷標準、R-ISS 分期與誘導治療組合。",
         url: "",
         status: "coming-soon",
         tags: ["MM", "多發性骨髓瘤", "myeloma"]
-      },
-      {
-        id: "mds",
-        title: "骨髓化生不良症候群 (MDS)",
-        description: "IPSS-M 風險評估與 MDS 分層處置。",
-        url: "",
-        status: "coming-soon",
-        tags: ["MDS", "骨髓化生不良", "IPSS-M"]
       }
     ]
   },
