@@ -104,6 +104,22 @@ window.PORTAL_CONFIG = {
         url: "https://lichiahans.github.io/mm-nccn-guide/",
         status: "active",
         tags: ["MM", "多發性骨髓瘤", "myeloma", "SLiM-CRAB", "R-ISS", "R2-ISS", "IMS-IMWG", "Dara-VRd", "Isa-VRd", "CAR-T", "BsAb", "BCMA", "MRD", "IMPEDE", "SAVED", "MGCS", "MGRS", "POEMS", "NCCN"]
+      },
+      {
+        id: "cll",
+        title: "慢性淋巴球性白血病 (CLL / SLL)",
+        description: "NCCN v2.2027 速查：MBL/CLL/SLL 診斷、Rai/Binet/CLL-IPI 與 TLS 工具、Fit/Frail 一線、Pirtobrutinib+VenR、MRD、Richter 轉化與 BTKi 停藥警語。",
+        url: "https://lichiahans.github.io/cll-nccn-guide/",
+        status: "active",
+        tags: ["CLL", "SLL", "MBL", "慢性淋巴球性白血病", "小淋巴球性淋巴瘤", "del(17p)", "TP53", "IGHV", "BTKi", "BCL2i", "Venetoclax", "Acalabrutinib", "Zanubrutinib", "Pirtobrutinib", "Richter", "TLS", "MRD", "CLL-IPI", "NCCN"]
+      },
+      {
+        id: "cml",
+        title: "慢性骨髓性白血病 (CML)",
+        description: "NCCN v2.2027 速查：ELTS 風險計算機、CP/AP/BP 治療、3/6/12m 里程碑、BCR::ABL1 突變換藥、TKI 副作用／交互作用、TFR 停藥與懷孕處置。",
+        url: "https://lichiahans.github.io/cml-nccn-guide/",
+        status: "active",
+        tags: ["CML", "慢性骨髓性白血病", "白血病", "leukemia", "BCR-ABL1", "TKI", "Asciminib", "Ponatinib", "Imatinib", "Dasatinib", "Nilotinib", "Bosutinib", "T315I", "ELTS", "TFR", "NCCN"]
       }
     ]
   },
