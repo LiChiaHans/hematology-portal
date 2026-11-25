@@ -82,6 +82,14 @@ window.PORTAL_CONFIG = {
         tags: ["淋巴瘤", "T細胞淋巴瘤", "lymphoma", "PTCL", "ALCL", "AITL", "ATLL", "HSTCL", "ENKL", "T-LGLL", "T-PLL", "HLH", "NCCN"]
       },
       {
+        id: "mpn",
+        title: "骨髓增生性腫瘤 (MPN)",
+        description: "NCCN v3.2026 速查：MF、PV、ET、AP/BP、Rusfertide、RopegIFN、JAKi 安全須知與預後／MPN-10 計算機。",
+        url: "https://lichiahans.github.io/mpn-nccn-guide/",
+        status: "active",
+        tags: ["MPN", "骨髓增生性腫瘤", "MF", "PV", "ET", "骨髓纖維化", "真性紅血球增多症", "原發性血小板增多症", "JAK2", "CALR", "MPL", "Rusfertide", "Ruxolitinib", "Momelotinib", "NCCN"]
+      },
+      {
         id: "mm",
         title: "多發性骨髓瘤 (Multiple Myeloma)",
         description: "IMWG 診斷標準、R-ISS 分期與誘導治療組合。",
@@ -90,12 +98,12 @@ window.PORTAL_CONFIG = {
         tags: ["MM", "多發性骨髓瘤", "myeloma"]
       },
       {
-        id: "mds-mpn",
-        title: "MDS / MPN",
-        description: "IPSS-M 風險評估與骨髓增生性腫瘤處置。",
+        id: "mds",
+        title: "骨髓化生不良症候群 (MDS)",
+        description: "IPSS-M 風險評估與 MDS 分層處置。",
         url: "",
         status: "coming-soon",
-        tags: ["MDS", "MPN", "骨髓化生不良"]
+        tags: ["MDS", "骨髓化生不良", "IPSS-M"]
       }
     ]
   },
