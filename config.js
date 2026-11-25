@@ -66,12 +66,12 @@ window.PORTAL_CONFIG = {
         tags: ["AML", "白血病", "leukemia"]
       },
       {
-        id: "lymphoma-topic",
-        title: "惡性淋巴瘤 (Lymphoma)",
-        description: "DLBCL、FL、HL 等分期評估與一線/後線治療。",
-        url: "",
-        status: "coming-soon",
-        tags: ["淋巴瘤", "lymphoma", "DLBCL"]
+        id: "bcell-lymphoma",
+        title: "B 細胞淋巴瘤 (B-Cell Lymphomas)",
+        description: "NCCN v4.2026 速查：DLBCL、FL、MZL、MCL、PMBL、HGBL、BL、PTLD 與預後計算機。",
+        url: "https://lichiahans.github.io/bcell-lymphoma-nccn-guide/",
+        status: "active",
+        tags: ["淋巴瘤", "B細胞淋巴瘤", "lymphoma", "DLBCL", "FL", "MZL", "MCL", "Burkitt", "NCCN"]
       },
       {
         id: "mm",
