@@ -49,14 +49,14 @@ window.PORTAL_CONFIG = {
     },
     {
       id: "ward-orders",
-      title: "血液科病房常用處方",
-      subtitle: "Hematology Ward Common Orders & ALT Guide",
-      description: "血液科病房常用處方、突破性止吐、入院醫令、TDM、Ribavirin RSV 計算機與抗生素封存療法（ALT）速查。",
+      title: "血液科病房Survival guide",
+      subtitle: "Hematology Ward Survival Guide",
+      description: "血液科病房常用處方、突破性止吐、入院醫令、TDM、Ribavirin RSV 計算機、抗生素封存療法（ALT）與照會／診斷書模板。",
       url: "https://lichiahans.github.io/hema-ward-orders/",
       status: "active",
-      badge: "病房處方",
+      badge: "病房指南",
       icon: "book",
-      tags: ["病房", "處方", "醫囑", "止吐", "TDM", "antifungal", "Ribavirin", "RSV", "Lock", "ALT", "Port-A", "G-CSF", "CRI"]
+      tags: ["Survival guide", "病房", "處方", "醫囑", "止吐", "TDM", "antifungal", "Posaconazole", "照會", "診斷書", "Ribavirin", "RSV", "Lock", "ALT", "Port-A", "G-CSF", "CRI"]
     }
   ],
 
