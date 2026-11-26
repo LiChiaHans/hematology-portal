@@ -10,7 +10,7 @@
 window.PORTAL_CONFIG = {
   siteTitle: "血液科臨床資源入口網",
   siteSubtitle: "Hematology & BMT Clinical Portal",
-  lastUpdated: "2026-11-25",
+  lastUpdated: "2026-11-26",
 
   // 臨床工具與預約系統
   clinicalTools: [
@@ -46,6 +46,17 @@ window.PORTAL_CONFIG = {
       badge: "臨床工具",
       icon: "flask",
       tags: ["BMT", "HSCT", "骨髓移植", "protocol", "處置療程"]
+    },
+    {
+      id: "ward-orders",
+      title: "12D 血液科病房常用處方",
+      subtitle: "Hematology Ward Common Orders & Lock Guide",
+      description: "12D 常用處方、突破性止吐、入院醫令、TDM、Ribavirin RSV 計算機與 Antibiotic Lock 泡法速查。",
+      url: "https://lichiahans.github.io/hema-ward-orders/",
+      status: "active",
+      badge: "病房處方",
+      icon: "book",
+      tags: ["12D", "病房", "處方", "醫囑", "止吐", "TDM", "antifungal", "Ribavirin", "RSV", "Lock", "ALT", "Port-A", "G-CSF", "CRI"]
     }
   ],
 
