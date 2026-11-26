@@ -49,14 +49,14 @@ window.PORTAL_CONFIG = {
     },
     {
       id: "ward-orders",
-      title: "12D 血液科病房常用處方",
-      subtitle: "Hematology Ward Common Orders & Lock Guide",
-      description: "12D 常用處方、突破性止吐、入院醫令、TDM、Ribavirin RSV 計算機與 Antibiotic Lock 泡法速查。",
+      title: "血液科病房常用處方",
+      subtitle: "Hematology Ward Common Orders & ALT Guide",
+      description: "血液科病房常用處方、突破性止吐、入院醫令、TDM、Ribavirin RSV 計算機與抗生素封存療法（ALT）速查。",
       url: "https://lichiahans.github.io/hema-ward-orders/",
       status: "active",
       badge: "病房處方",
       icon: "book",
-      tags: ["12D", "病房", "處方", "醫囑", "止吐", "TDM", "antifungal", "Ribavirin", "RSV", "Lock", "ALT", "Port-A", "G-CSF", "CRI"]
+      tags: ["病房", "處方", "醫囑", "止吐", "TDM", "antifungal", "Ribavirin", "RSV", "Lock", "ALT", "Port-A", "G-CSF", "CRI"]
     }
   ],
 
