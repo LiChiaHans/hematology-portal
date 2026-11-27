@@ -171,6 +171,14 @@ window.PORTAL_CONFIG = {
         url: "https://lichiahans.github.io/hsct-nccn-guide/",
         status: "active",
         tags: ["HSCT", "HCT", "BMT", "造血幹細胞移植", "骨髓移植", "GVHD", "aGVHD", "cGVHD", "MAGIC", "NIH", "Conditioning", "Treosulfan", "Busulfan", "VOD", "SOS", "Defibrotide", "Ruxolitinib", "Belumosudil", "Axatilimab", "Ibrutinib", "Plerixafor", "Motixafortide", "NCCN"]
+      },
+      {
+        id: "mlntk",
+        title: "嗜酸性球腫瘤合併 TK 基因融合 (MLN-TK)",
+        description: "NCCN v2.2026 速查：PDGFRA、PDGFRB、FGFR1、JAK2、ABL1、FLT3 六大融合診斷與核型決策工具、HE/HES 分類、Imatinib/Pemigatinib/JAKi 與早期 allo-HCT 策略。",
+        url: "https://lichiahans.github.io/mlntk-nccn-guide/",
+        status: "active",
+        tags: ["MLNTK", "MLN-TK", "MLNE", "嗜酸性球", "eosinophilia", "HES", "CEL", "PDGFRA", "FIP1L1", "CHIC2", "PDGFRB", "FGFR1", "JAK2", "PCM1", "FLT3", "ABL1", "Imatinib", "Pemigatinib", "Ruxolitinib", "Avapritinib", "NCCN"]
       }
     ]
   },
