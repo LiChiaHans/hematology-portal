@@ -10,7 +10,7 @@
 window.PORTAL_CONFIG = {
   siteTitle: "血液科臨床資源入口網",
   siteSubtitle: "Hematology & BMT Clinical Portal",
-  lastUpdated: "2026-11-26",
+  lastUpdated: "2026-11-27",
 
   // 臨床工具與預約系統
   clinicalTools: [
@@ -68,6 +68,14 @@ window.PORTAL_CONFIG = {
     mainUrl: "", // 若有統一的疾病個論主網站網址可填於此
     status: "updating",
     topics: [
+      {
+        id: "who5-hematolymphoid",
+        title: "WHO 第五版血液腫瘤分類總覽 (WHO-HAEM5)",
+        description: "WHO 5th 造血與淋巴組織腫瘤分色樹狀導覽：6 大章節尋路、Essential / Desirable 診斷標準、第 4 版刪改對照，並直連各疾病個論診斷與治療指引。",
+        url: "https://lichiahans.github.io/who5-hematolymphoid-guide/",
+        status: "active",
+        tags: ["WHO", "WHO 5th", "WHO-HAEM5", "分類", "樹狀圖", "診斷標準", "Essential", "Desirable", "Myeloid", "Lymphoid", "Histiocytic", "Stroma", "Genetic", "MDN", "MDS", "AML", "DLBCL", "PTCL"]
+      },
       {
         id: "aml",
         title: "急性骨髓性白血病 (AML)",
@@ -131,6 +139,14 @@ window.PORTAL_CONFIG = {
         url: "https://lichiahans.github.io/cml-nccn-guide/",
         status: "active",
         tags: ["CML", "慢性骨髓性白血病", "白血病", "leukemia", "BCR-ABL1", "TKI", "Asciminib", "Ponatinib", "Imatinib", "Dasatinib", "Nilotinib", "Bosutinib", "T315I", "ELTS", "TFR", "NCCN"]
+      },
+      {
+        id: "histiocytic",
+        title: "組織球腫瘤 (Histiocytic Neoplasms)",
+        description: "NCCN v4.2026 速查：成人／兒童 LCH、ECD、RDD、惡性組織球腫瘤 (MHN)、IHC 鑑別工具、MAPK/ALK/NTRK1 分子檢測、標靶起始減量與放療劑量。",
+        url: "https://lichiahans.github.io/histiocytic-nccn-guide/",
+        status: "active",
+        tags: ["Histiocytic", "組織球腫瘤", "LCH", "ECD", "RDD", "MHN", "Histiocytic sarcoma", "Langerhans", "Erdheim-Chester", "Rosai-Dorfman", "BRAF", "MAP2K1", "ALK", "NTRK1", "Vemurafenib", "Cobimetinib", "NCCN"]
       }
     ]
   },
