@@ -133,6 +133,14 @@ window.PORTAL_CONFIG = {
         tags: ["MM", "多發性骨髓瘤", "myeloma", "SLiM-CRAB", "R-ISS", "R2-ISS", "IMS-IMWG", "Dara-VRd", "Isa-VRd", "CAR-T", "BsAb", "BCMA", "MRD", "IMPEDE", "SAVED", "MGCS", "MGRS", "POEMS", "NCCN"]
       },
       {
+        id: "wm",
+        title: "華氏巨球蛋白血症 (WM / LPL)",
+        description: "NCCN v1.2027 速查：MYD88/CXCR4/TP53、MSS-WM 計算機、無症狀追蹤、血漿置換與 IgM Flare、Zanubrutinib/BR、Pirtobrutinib/Lonca、IWWM-11、WM 相關類澱粉 (WM/AL-1) 與 Bing-Neel 症候群。",
+        url: "https://lichiahans.github.io/wm-nccn-guide/",
+        status: "active",
+        tags: ["WM", "LPL", "華氏巨球蛋白血症", "淋巴漿細胞淋巴瘤", "Waldenstrom", "IgM", "MYD88", "CXCR4", "TP53", "MSS-WM", "Zanubrutinib", "Ibrutinib", "Pirtobrutinib", "BR", "Loncastuximab", "Venetoclax", "IWWM-11", "SLCA", "Amyloidosis", "Bing-Neel", "BNS", "Plasmapheresis", "NCCN"]
+      },
+      {
         id: "cll",
         title: "慢性淋巴球性白血病 (CLL / SLL)",
         description: "NCCN v2.2027 速查：MBL/CLL/SLL 診斷、Rai/Binet/CLL-IPI 與 TLS 工具、Fit/Frail 一線、Pirtobrutinib+VenR、MRD、Richter 轉化與 BTKi 停藥警語。",
