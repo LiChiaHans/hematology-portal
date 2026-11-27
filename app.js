@@ -106,11 +106,17 @@
 
   function renderDiseaseCard(item) {
     const isActive = item.status === "active" && item.url;
+    const hasTheme = Boolean(item.color);
+    const themeStyle = hasTheme
+      ? `style="--dc-light: ${escapeAttr(item.color)}; --dc-dark: ${escapeAttr(item.colorDark || item.color)};"`
+      : "";
+    const emojiHtml = item.emoji ? `<span class="disease-emoji" aria-hidden="true">${escapeHtml(item.emoji)}</span>` : "";
+    const badgeLabel = item.badge || (isActive ? "可閱覽" : "待更新");
     return `
-      <article class="card disease-card ${isActive ? "" : "is-placeholder"}">
+      <article class="card disease-card ${isActive ? "" : "is-placeholder"} ${hasTheme ? "has-theme" : ""}" ${themeStyle}>
         <div class="card-top">
-          <h3 class="card-title">${escapeHtml(item.title)}</h3>
-          <span class="status-pill ${isActive ? "active" : "coming-soon"}">${isActive ? "可閱覽" : "待更新"}</span>
+          <h3 class="card-title">${emojiHtml}${escapeHtml(item.title)}</h3>
+          <span class="status-pill ${hasTheme && isActive ? "disease-pill" : isActive ? "active" : "coming-soon"}">${escapeHtml(badgeLabel)}</span>
         </div>
         <p class="card-desc">${escapeHtml(item.description)}</p>
         <div class="card-actions">
