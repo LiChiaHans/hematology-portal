@@ -129,6 +129,18 @@ window.PORTAL_CONFIG = {
         tags: ["淋巴瘤", "T細胞淋巴瘤", "lymphoma", "PTCL", "ALCL", "AITL", "ATLL", "HSTCL", "ENKL", "T-LGLL", "T-PLL", "HLH", "NCCN"]
       },
       {
+        id: "hl",
+        emoji: "🎗️",
+        badge: "NCCN v2.2026",
+        color: "#6d28d9",
+        colorDark: "#a78bfa",
+        title: "何杰金氏淋巴瘤 (Hodgkin Lymphoma)",
+        description: "NCCN v2.2026 速查：CHL/NLPHL 免疫表型、GHSG/EORTC 早期風險與 IPS 計算機、Nivo-AVD/BrECADD、>60 歲與懷孕、R/R CPI 方案、ISRT OAR 劑量限制與長期追蹤。",
+        url: "https://lichiahans.github.io/hl-nccn-guide/",
+        status: "active",
+        tags: ["HL", "CHL", "NLPHL", "NLPBL", "何杰金氏淋巴瘤", "霍奇金淋巴瘤", "Hodgkin", "ABVD", "Nivolumab-AVD", "BrECADD", "BV-AVD", "Deauville", "IPS", "ISRT", "AETHERA", "SWOG S1826", "HD21", "NCCN"]
+      },
+      {
         id: "mpn",
         emoji: "🩸",
         badge: "NCCN v3.2026",
