@@ -85,6 +85,14 @@ window.PORTAL_CONFIG = {
         tags: ["AML", "APL", "BPDCN", "白血病", "leukemia", "ELN", "FLT3", "IDH", "NPM1", "Venetoclax", "MRD", "NCCN"]
       },
       {
+        id: "all",
+        title: "急性淋巴芽球白血病 (ALL)",
+        description: "NCCN v3.2026 速查：Ph+/Ph− B-ALL 與 T-ALL、ECOG 1910 Blinatumomab 鞏固、ABL1 突變 TKI 速查、CAR-T/InO、MRD、ALL-G 移植原則與 Asparaginase 毒性。",
+        url: "https://lichiahans.github.io/all-nccn-guide/",
+        status: "active",
+        tags: ["ALL", "B-ALL", "T-ALL", "ETP-ALL", "急性淋巴芽球白血病", "白血病", "leukemia", "Ph+", "Ph-like", "BCR-ABL1", "Asciminib", "Ponatinib", "Blinatumomab", "Inotuzumab", "CAR-T", "Nelarabine", "Revumenib", "Venetoclax", "ECOG 1910", "MRD", "SOS", "Asparaginase", "NCCN"]
+      },
+      {
         id: "bcell-lymphoma",
         title: "B 細胞淋巴瘤 (B-Cell Lymphomas)",
         description: "NCCN v4.2026 速查：DLBCL、FL、MZL、MCL、PMBL、HGBL、BL、PTLD 與預後計算機。",
@@ -147,6 +155,14 @@ window.PORTAL_CONFIG = {
         url: "https://lichiahans.github.io/histiocytic-nccn-guide/",
         status: "active",
         tags: ["Histiocytic", "組織球腫瘤", "LCH", "ECD", "RDD", "MHN", "Histiocytic sarcoma", "Langerhans", "Erdheim-Chester", "Rosai-Dorfman", "BRAF", "MAP2K1", "ALK", "NTRK1", "Vemurafenib", "Cobimetinib", "NCCN"]
+      },
+      {
+        id: "hsct",
+        title: "造血幹細胞移植 (HSCT)",
+        description: "NCCN v1.2025 速查：17 大疾病適應症 (直連 WHO 5th)、HCT-CI 評估、動員療程、MA/RIC/NMA/自體調理與 ABW 計算機、VOD/SOS、急／慢性 GVHD 分級工具與難治性用藥。",
+        url: "https://lichiahans.github.io/hsct-nccn-guide/",
+        status: "active",
+        tags: ["HSCT", "HCT", "BMT", "造血幹細胞移植", "骨髓移植", "GVHD", "aGVHD", "cGVHD", "MAGIC", "NIH", "Conditioning", "Treosulfan", "Busulfan", "VOD", "SOS", "Defibrotide", "Ruxolitinib", "Belumosudil", "Axatilimab", "Ibrutinib", "Plerixafor", "Motixafortide", "NCCN"]
       }
     ]
   },
